@@ -1,4 +1,4 @@
-# 📄 PaperCut — Smart Document & Expense Scanner
+# PaperCut — Smart Document & Expense Scanner
 
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg?logo=android)](https://www.android.com/)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple.svg?logo=kotlin)](https://kotlinlang.org/)
@@ -10,18 +10,18 @@
 
 ---
 
-## 📲 Quick Download
+## Quick Download
 
 You can test the pre-built, ready-to-install Android APK directly from this repository:
 
-👉 **[Download PaperCut.apk (Direct Link)](./release_apk/PaperCut.apk)**  
+* **[Download PaperCut.apk (Direct Link)](./release_apk/PaperCut.apk)**  
 *(Also located at `app/build/outputs/apk/debug/PaperCut.apk`)*
 
 ---
 
-## ✨ Features
+## Features
 
-### 📸 1. On-Device Receipt & Document Scanning (OCR)
+### 1. On-Device Receipt & Document Scanning (OCR)
 * **ML Kit Document Scanner API:** Built-in edge detection, perspective correction, contrast enhancement, and auto-cropping.
 * **On-Device Text Recognition:** Instant local OCR that automatically parses:
   * Merchant / Vendor name
@@ -29,36 +29,36 @@ You can test the pre-built, ready-to-install Android APK directly from this repo
   * Transaction date
   * Keyword-based category auto-assignment (e.g., *Food & Dining, Groceries, Travel, Utilities, Office*)
 
-### 🔤 2. Searchable World Currency Picker
+### 2. Searchable World Currency Picker
 * Search across **40+ global currencies** by ISO code (e.g. `USD`, `EUR`, `INR`, `GBP`, `JPY`, `CAD`, `AUD`, `AED`, `KES`, `ZAR`), currency name, or country.
-* **Country Flag Emojis** and symbols side-by-side (`🇺🇸 USD ($)`, `🇪🇺 EUR (€)`, `🇮🇳 INR (₹)`).
+* Symbols side-by-side (`USD ($)`, `EUR (€)`, `INR (₹)`).
 * Pinned popular currencies section for fast selection.
 
-### 🎨 3. Custom Categories & Custom Color Badges
+### 3. Custom Categories & Custom Color Badges
 * Create custom categories with tailored names.
 * Assign custom badge colors from a color palette swatch to organize expenses visually.
 
-### 📊 4. Paginated Expense Management & Analytics
-* **Optimized Database Pagination:** Paginated Room SQL queries (`20 records per page`) ensuring buttery-smooth performance even with thousands of receipts.
+### 4. Paginated Expense Management & Analytics
+* **Optimized Database Pagination:** Paginated Room SQL queries (`20 records per page`) ensuring smooth performance even with thousands of receipts.
 * **Interactive Pagination Bar:** Page navigation (`Prev` / `Next` with total record counter).
 * **Monthly Budget Target & Spending Gauge:** Set a custom monthly spending target with a live percentage gauge bar that alerts you when approaching or exceeding your limit.
 
-### 📞 5. Supplier Contact Tagging & Sharing
+### 5. Supplier Contact Tagging & Sharing
 * Tag supplier, merchant, or friend phone numbers directly to any receipt.
 * **One-Tap Dialing:** Call suppliers directly from the receipt details screen.
 * **Instant Receipt Sharing:** Share receipt summaries and receipt images via WhatsApp, Gmail, Messages, or PDF share sheet.
 
-### 📑 6. Local PDF & CSV Report Generation
+### 6. Local PDF & CSV Report Generation
 * Export formatted PDF and CSV expense reports directly to `Documents/PaperCut/` on your device.
 * **One-Tap Report Opening:** Instant notification with an `OPEN` button to view or send reports immediately.
 
-### 🔒 7. Strict On-Device Privacy (Zero Cloud Dependencies)
+### 7. Strict On-Device Privacy (Zero Cloud Dependencies)
 * All OCR, image processing, database storage, and report generation occur strictly **on your device**.
 * Zero external cloud servers, tracking, or memory leaks.
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 PaperCut follows modern Android architecture guidelines adhering to Clean Architecture & MVVM principles:
 
@@ -88,7 +88,7 @@ com.example.new_app/
 
 ---
 
-## 🛠️ Prerequisites & Building from Source
+## Prerequisites & Building from Source
 
 ### Requirements
 * Android Studio Ladybug (2024.2.1) or newer
@@ -99,7 +99,7 @@ com.example.new_app/
 ### Steps to Build
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/PaperCut.git
+   git clone https://github.com/sp2772/PaperCut---Smart-Document-Expense-Scanner.git
    cd PaperCut
    ```
 2. Open the project in Android Studio.
